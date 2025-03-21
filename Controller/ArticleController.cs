@@ -7,8 +7,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using System.IdentityModel.Tokens.Jwt;
 
-namespace WebAPI.Controllers
-{
+namespace WebAPI.Controllers{
     [ApiController]
     public class ArticleController:ControllerBase{
         private  ArticleService articleService;
